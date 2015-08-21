@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>backbone.js</title>
+</head>
+<body>
+<!--   htmlファイル上に下記scriptタグにテンプレートを置いておき、app.jsから下記タグをjQueryのセレクタで取得する事で使用する-->
+    <script type="text/template" id="task-template">
+        <%- title %> <span class="command">command</span>
+    </script>
+    <script src="js/underscore.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/backbone.js"></script>
+    <script src="js/app.js"></script><!--このファイルにjsを書く-->
+</body>
+</html>
